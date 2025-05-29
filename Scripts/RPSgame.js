@@ -84,8 +84,8 @@
         let theScoreDisplay = document.querySelector(".jsScore");
         theResultDisplay.innerHTML = aResult;
         theMovesDisplay.innerHTML = `You
-                <img class="moveIcon" src="/img/${aUserChoice}Final.png" alt="${aUserChoice}"/>
-                <img class="moveIcon" src="/img/${aComputerChoice}Final.png" alt="${aComputerChoice}"/> Computer`;
+                <img class="moveIcon" src="./img/${aUserChoice}Final.png" alt="${aUserChoice}"/>
+                <img class="moveIcon" src="./img/${aComputerChoice}Final.png" alt="${aComputerChoice}"/> Computer`;
         theScoreDisplay.innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`;
       }
       // Adding a function to update the object using the local storage
